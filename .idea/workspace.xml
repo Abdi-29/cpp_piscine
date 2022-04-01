@@ -10,13 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67327c95-8bc4-4d52-bdb2-7d46914c9445" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Module00/ex00/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Module00/ex00/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module00/ex00/megaphone.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module00/ex00/megaphone.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module00/ex01/PhoneBook.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module00/ex01/PhoneBook.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module00/ex01/include/PhoneBook.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module00/ex01/include/PhoneBook.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module00/ex01/test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module00/ex02/Account.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module00/ex02/Account.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module00/ex02/include/Account.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module00/ex02/include/Account.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex01/Fixed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex01/Fixed.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex02/Fixed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex02/Fixed.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex02/include/Fixed.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex02/include/Fixed.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex02/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +26,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Module00" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="278vDstL3VFdRqrAdP5RvElTc3L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,6 +40,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,7 +51,11 @@
       <option name="presentableId" value="Default" />
       <updated>1648714416053</updated>
       <workItem from="1648714421464" duration="6299000" />
-      <workItem from="1648725776606" duration="17145000" />
+      <workItem from="1648725776606" duration="17524000" />
+      <workItem from="1648799744501" duration="6845000" />
+      <workItem from="1648811898811" duration="2437000" />
+      <workItem from="1648827996960" duration="98000" />
+      <workItem from="1648831864862" duration="4424000" />
     </task>
     <servers />
   </component>
@@ -59,10 +63,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="258" y="341" key="#C/C++" timestamp="1648717406431">
+    <state x="258" y="341" key="#C/C++" timestamp="1648803505018">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="258" y="341" key="#C/C++/0.0.2560.1440@0.0.2560.1440" timestamp="1648717406431" />
+    <state x="258" y="341" key="#C/C++/0.0.2560.1440@0.0.2560.1440" timestamp="1648803505018" />
+    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1648802993656">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1648802993656" />
+    <state x="789" y="359" key="SettingsEditor" timestamp="1648802906525">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="789" y="359" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1648802906525" />
     <state x="858" y="0" width="937" height="1055" key="dock-window-1" timestamp="1648718396293">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
