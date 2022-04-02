@@ -10,12 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67327c95-8bc4-4d52-bdb2-7d46914c9445" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module02/ex01/Fixed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex01/Fixed.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module02/ex02/Fixed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex02/Fixed.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module02/ex02/include/Fixed.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex02/include/Fixed.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module02/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex02/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +37,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +57,9 @@
       <workItem from="1648799744501" duration="6845000" />
       <workItem from="1648811898811" duration="2437000" />
       <workItem from="1648827996960" duration="98000" />
-      <workItem from="1648831864862" duration="4424000" />
+      <workItem from="1648831864862" duration="4526000" />
+      <workItem from="1648889845567" duration="1561000" />
+      <workItem from="1648907737747" duration="7759000" />
     </task>
     <servers />
   </component>
@@ -71,6 +75,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1648802993656" />
+    <state x="1586" y="529" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648920820824">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1586" y="529" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1648920820824" />
     <state x="789" y="359" key="SettingsEditor" timestamp="1648802906525">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

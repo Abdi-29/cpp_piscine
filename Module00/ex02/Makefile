@@ -1,6 +1,7 @@
 NAME = account
 
-SRC = 	Account.cpp
+SRC = 	Account.cpp \
+        tests.cpp
 
 INCLUDE = -I ./include
 OBJ = $(SRC:%.cpp=%.o)

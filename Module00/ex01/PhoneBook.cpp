@@ -4,6 +4,7 @@
 PhoneBook::PhoneBook(void) 
 {
     std::string	buffer;
+    int			valid;
     int		value;
 	t_function	command[3] = {
 		{"ADD", &PhoneBook::add_function},
@@ -13,8 +14,10 @@ PhoneBook::PhoneBook(void)
 
 	this->value = 0;
 	value = 1;
-	while (value) 
+	this->_index = 0;
+	while (value)
 	{
+		valid = 0;
 		std::cout<<"input a word: ";
 		getline(std::cin, buffer);
 		if (std::cin.eof())
@@ -25,6 +28,7 @@ PhoneBook::PhoneBook(void)
 				break ;
 			if (command[i].option == buffer)
 			{
+				valid = 1;
 				//(*this).*
 				value = (this->*command[i].function_pointer)();
 				if (!value)
@@ -32,6 +36,8 @@ PhoneBook::PhoneBook(void)
 				break ;
 			}
 		}
+		if (valid == 0)
+			std::cout << "usage [ADD] or [SEARCH] or [EXIT]" << std::endl;
 	}
 }
 
@@ -56,6 +62,7 @@ std::string Contact::get_option(std::string str) const
 			exit(0);
 		if (buffer.length() > 0)
 			break ;
+		std::cout << "argument can't be empty" << std::endl;
 	}
 	return buffer;
 }
@@ -64,16 +71,17 @@ int PhoneBook::add_function(void)
 {
 	int			i;
 
-	i = this->value % 8;
+	i = this->_index % 8;
 	this->buffer[i][0] = this->contacts[i].get_option("first name: ");
 	this->buffer[i][1] = this->contacts[i].get_option("last name: ");
 	this->buffer[i][2] = this->contacts[i].get_option("nickname: ");
-	this->buffer[i][3] = this->contacts[i].get_option("phone nomber: ");
+	this->buffer[i][3] = this->contacts[i].get_option("phone number: ");
 	this->buffer[i][4] = this->contacts[i].get_option("darkest secret: ");
 	if (this->value == 8)
 		this->value = 8;
 	else
 		this->value++;
+	this->_index++;
 	return 1;
 }
 
@@ -114,14 +122,14 @@ int PhoneBook::search_function(void)
 	{
 		if (!isdigit(number[i]))
 		{
-			std::cout <<"invalid input" << std::endl;
+			std::cout <<"index can be only numbers" << std::endl;
 			return 1;
 		}
 	}
 	index = std::stoi(number);
 	if (index >= this->value || this->value < 0)
 	{
-		std::cout <<"invalid input" << std::endl;
+		std::cout <<"index is high or low" << std::endl;
 		return 1;
 	}
 	std::cout << "firs name: " << this->buffer[index][0] << std::endl;
