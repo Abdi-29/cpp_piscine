@@ -1,17 +1,23 @@
-#include "Fixed.hpp"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   Fixed.cpp                                          :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: abba <abba@student.codam.nl>                 +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/04/06 16:15:15 by abba          #+#    #+#                 */
+/*   Updated: 2022/04/06 16:15:15 by abba          ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
 
-Fixed::Fixed(void)
+#include "include/Fixed.hpp"
+
+Fixed::Fixed(void) : _value(0)
 {
-	_value = 0;
 	std::cout << "Default constructor called" << std::endl;
 	return;
 }
 
-Fixed::~Fixed(void)
-{
-	std::cout << "Destructor called" << std::endl;
-	return;
-}
 
 Fixed::Fixed(Fixed &copy)
 {
@@ -37,3 +43,10 @@ void Fixed::setRawBits(int const raw)
 {
 	_value = raw;
 }
+
+Fixed::~Fixed(void)
+{
+	std::cout << "Destructor called" << std::endl;
+	return;
+}
+

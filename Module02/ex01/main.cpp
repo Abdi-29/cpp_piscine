@@ -1,4 +1,16 @@
-#include "Fixed.hpp"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   main.cpp                                           :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: abba <abba@student.codam.nl>                 +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/04/06 16:14:41 by abba          #+#    #+#                 */
+/*   Updated: 2022/04/06 16:14:41 by abba          ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "include/Fixed.hpp"
 
 int	main(void) {
 	Fixed a;
@@ -17,6 +29,7 @@ int	main(void) {
 	std::cout << "b is " << b.toInt() << " as integer" << std::endl;
 	std::cout << "c is " << c.toInt() << " as integer" << std::endl;
 	std::cout << "d is " << d.toInt() << " as integer" << std::endl;
+	std::cout << a / b << std::endl;
 
 	return 0;
 }

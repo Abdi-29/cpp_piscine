@@ -13,8 +13,9 @@ private:
     Weapon& _weaponType;
 
 public:
-    void    attack();
+    void    attack(void);
     HumanA(std::string type, Weapon& club);
+	HumanA();
 	~HumanA();
 };
 

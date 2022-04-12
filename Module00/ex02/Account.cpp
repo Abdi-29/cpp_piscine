@@ -59,7 +59,6 @@ void	Account::makeDeposit( int deposit )
 
 bool	Account::makeWithdrawal( int withdrawal )
 {
-	bool check;
 	int copy;
 
 	if (withdrawal < 0)

@@ -1,26 +1,32 @@
 #include "PhoneBook.hpp"
 #include <iomanip>
 
-PhoneBook::PhoneBook(void) 
+Contact::Contact()
+{
+
+}
+
+PhoneBook::PhoneBook(void)
 {
     std::string	buffer;
-    int			valid;
-    int		value;
+    bool		isValidInput;
+    int			TRUE;
 	t_function	command[3] = {
 		{"ADD", &PhoneBook::add_function},
 		{"SEARCH", &PhoneBook::search_function},
 		{"EXIT", &PhoneBook::exit_function}
 	};
 
-	this->value = 0;
-	value = 1;
+	this->_numberOfContact = 0;
+	TRUE = 1;
 	this->_index = 0;
-	while (value)
+
+	while (TRUE)
 	{
-		valid = 0;
+		isValidInput = false;
 		std::cout<<"input a word: ";
 		getline(std::cin, buffer);
-		if (std::cin.eof())
+		if (std::cin.eof())			//breaks the loop when ctr-D are pressed
 			break;
 		for (int i = 0; i < 3; i++)
 		{
@@ -28,22 +34,17 @@ PhoneBook::PhoneBook(void)
 				break ;
 			if (command[i].option == buffer)
 			{
-				valid = 1;
+				isValidInput = true;
 				//(*this).*
-				value = (this->*command[i].function_pointer)();
-				if (!value)
-					return;
+				TRUE = (this->*command[i].function_pointer)();
 				break ;
 			}
 		}
-		if (valid == 0)
+		if (isValidInput == false)
 			std::cout << "usage [ADD] or [SEARCH] or [EXIT]" << std::endl;
 	}
 }
 
-Contact::Contact()
-{
-}
 
 int PhoneBook::exit_function(void)
 {
@@ -71,24 +72,24 @@ int PhoneBook::add_function(void)
 {
 	int			i;
 
-	i = this->_index % 8;
+	i = this->_index % MAX_CONTACT;
 	this->buffer[i][0] = this->contacts[i].get_option("first name: ");
 	this->buffer[i][1] = this->contacts[i].get_option("last name: ");
 	this->buffer[i][2] = this->contacts[i].get_option("nickname: ");
 	this->buffer[i][3] = this->contacts[i].get_option("phone number: ");
 	this->buffer[i][4] = this->contacts[i].get_option("darkest secret: ");
-	if (this->value == 8)
-		this->value = 8;
-	else
-		this->value++;
 	this->_index++;
+	if (this->_numberOfContact == MAX_CONTACT)
+		return 1;
+	this->_numberOfContact++;
 	return 1;
 }
 
-void	PhoneBook::PrintValue(std::string str) const
+void	PhoneBook::PrintContact(std::string str) const
 {
 	if (str.length() > 10)
-		std::cout << "|" << std::right << std::setw(10) << str.substr(0, 9) + '.';
+		std::cout << "|" << std::right
+		<< std::setw(10) << str.substr(0, 9) + '.';
 	else
 		std::cout << "|" << std::right << std::setw(10) << str;
 	return ;
@@ -100,17 +101,17 @@ int PhoneBook::search_function(void)
 	int			index;
 
 	std::cout << "|     index| firstname|  lastname|  nickname|" << std::endl;
-	if (this->value == 0)
+	if (this->_numberOfContact == 0)
 	{
 		std::cout << "phonebook is empty" << std::endl;
 		return 1;
 	}
-	for (int i = 0; i < this->value; i++)
+	for (int i = 0; i < this->_numberOfContact; i++)
 	{
 		std::cout << "|" << std::right << std::setw(10) << i;
 		for (int j = 0; j < 3; j++)
 		{
-			PrintValue(this->buffer[i][j]);
+			PrintContact(this->buffer[i][j]);
 		}
 		std::cout << "|" << std::endl;
 	}
@@ -122,17 +123,17 @@ int PhoneBook::search_function(void)
 	{
 		if (!isdigit(number[i]))
 		{
-			std::cout <<"index can be only numbers" << std::endl;
+			std::cout <<"index can contain only numbers" << std::endl;
 			return 1;
 		}
 	}
 	index = std::stoi(number);
-	if (index >= this->value || this->value < 0)
+	if (index >= this->_numberOfContact || this->_numberOfContact < 0)
 	{
 		std::cout <<"index is high or low" << std::endl;
 		return 1;
 	}
-	std::cout << "firs name: " << this->buffer[index][0] << std::endl;
+	std::cout << "first name: " << this->buffer[index][0] << std::endl;
 	std::cout << "last name: " << this->buffer[index][1] << std::endl;
 	std::cout << "nickname: " << this->buffer[index][2] << std::endl;
 	std::cout << "phone number: " << this->buffer[index][3] << std::endl;

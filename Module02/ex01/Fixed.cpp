@@ -1,4 +1,16 @@
-#include "Fixed.hpp"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   Fixed.cpp                                          :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: abba <abba@student.codam.nl>                 +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/04/06 16:14:49 by abba          #+#    #+#                 */
+/*   Updated: 2022/04/06 16:14:49 by abba          ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "include/Fixed.hpp"
 
 Fixed::Fixed(void) : _value(0)
 {
@@ -27,12 +39,6 @@ Fixed::Fixed(float const value)
 	return;
 }
 
-Fixed::~Fixed(void)
-{
-	std::cout << "Destructor called" << std::endl;
-	return;
-}
-
 Fixed &Fixed::operator= (Fixed const & fixed)
 {
 	std::cout << "Copy assignment operator called" << std::endl;
@@ -57,8 +63,18 @@ int Fixed::getRawBits(void) const
 	return _value;
 }
 
+void Fixed::setRawBits(int const raw)
+{
+	_value = raw;
+}
 
 int Fixed::toInt(void) const
 {
 	return _value >> _bits;
+}
+
+Fixed::~Fixed(void)
+{
+	std::cout << "Destructor called" << std::endl;
+	return;
 }

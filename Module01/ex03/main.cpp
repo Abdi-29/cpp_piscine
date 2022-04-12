@@ -1,4 +1,4 @@
-#include "Weapon.hpp"
+#include "include/Weapon.hpp"
 
 int	main(void)
 {

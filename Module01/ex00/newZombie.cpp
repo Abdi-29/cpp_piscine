@@ -1,4 +1,4 @@
-#include "Zombie.hpp"
+#include "include/Zombie.hpp"
 
 Zombie* newZombie( std::string name )
 {
@@ -9,7 +9,7 @@ Zombie* newZombie( std::string name )
     }
     catch(const std::exception& e)
     {
-        std::cerr << "wrong" << std::endl;
+        std::cerr << "failed to create zombie" << std::endl;
     }
     return zombie;
 }

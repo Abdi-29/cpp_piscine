@@ -1,4 +1,4 @@
-#include "Zombie.hpp"
+#include "include/Zombie.hpp"
 
 void    Zombie::setName(std::string name)
 {
@@ -19,12 +19,12 @@ Zombie*	zombieHorde( int N, std::string name )
        exit(1); 
     }
     try
-    {
+	{
         zombie = new Zombie[N];      
     }
     catch(const std::exception& e)
     {
-        std::cerr << "wrong" << std::endl;
+        std::cerr << "failed to create a zombie" << std::endl;
     }
     
     for (int i = 0; i < N; i++)

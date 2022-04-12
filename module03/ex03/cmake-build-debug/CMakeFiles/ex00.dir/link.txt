@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libex00.a  CMakeFiles/ex00.dir/ClapTrap.cpp.o CMakeFiles/ex00.dir/main.cpp.o CMakeFiles/ex00.dir/DiamondTrap.cpp.o CMakeFiles/ex00.dir/ScavTrap.cpp.o CMakeFiles/ex00.dir/FragTrap.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libex00.a

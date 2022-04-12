@@ -1,16 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Module01-ex04" targetName="Module02-ex01" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67327c95-8bc4-4d52-bdb2-7d46914c9445" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Module01/ex03/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module01/ex04/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/Fixed.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/Point.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/bsp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/Module01-ex04.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/include/Fixed.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/include/Point.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module02/ex03/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cpp_piscine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpp_piscine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex00/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex00/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex00/Zombie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex00/Zombie.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex00/include/Zombie.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex00/include/Zombie.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex00/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex00/newZombie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex00/newZombie.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex00/randomChump.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex00/randomChump.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex01/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex01/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex01/Zombie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex01/Zombie.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex01/include/Zombie.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex01/include/Zombie.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex01/zombieHorde.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex01/zombieHorde.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex02/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex02/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/HumanA.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex03/HumanA.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/HumanA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/HumanB.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex03/HumanB.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/HumanB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex03/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/Weapon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex03/Weapon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/Weapon.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/include/HumanA.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex03/include/HumanA.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/include/HumanB.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex03/include/HumanB.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/include/Weapon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex03/include/Weapon.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex03/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex03/weapon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex04/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex04/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex05/Harl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex05/Harl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex05/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex05/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex06/Harl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex06/Harl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex06/include/Harl.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex06/include/Harl.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module01/ex06/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module01/ex06/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex00/Fixed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex00/Fixed.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex00/include/Fixed.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex00/include/Fixed.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex00/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex01/Fixed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex01/Fixed.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex01/include/Fixed.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex01/include/Fixed.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex02/Fixed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex02/Fixed.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex02/include/Fixed.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex02/include/Fixed.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module02/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Module02/ex02/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +120,14 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,16 +142,40 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Module01/ex04" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Module01/ex04" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.Module02-ex01">
+    <configuration name="Run" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Module02-ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Module01-ex04" TARGET_NAME="Module02-ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Module01-ex04" RUN_TARGET_NAME="Module02-ex01">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="CMake Application.Module02-ex01" />
+      <item itemvalue="Makefile Application.Run" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,30 +192,89 @@
       <workItem from="1648827996960" duration="98000" />
       <workItem from="1648831864862" duration="4526000" />
       <workItem from="1648889845567" duration="1561000" />
-      <workItem from="1648907737747" duration="7759000" />
+      <workItem from="1648907737747" duration="8175000" />
+      <workItem from="1648984188061" duration="292000" />
+      <workItem from="1649056573305" duration="14919000" />
+      <workItem from="1649079487894" duration="6981000" />
+      <workItem from="1649146528297" duration="12409000" />
+      <workItem from="1649231475985" duration="5447000" />
+      <workItem from="1649249927968" duration="7499000" />
+      <workItem from="1649319234469" duration="428000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="258" y="341" key="#C/C++" timestamp="1648803505018">
+    <state x="258" y="341" key="#C/C++" timestamp="1649085505034">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="258" y="341" key="#C/C++/0.0.2560.1440@0.0.2560.1440" timestamp="1648803505018" />
-    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1648802993656">
+    <state x="258" y="341" key="#C/C++/0.0.2560.1440@0.0.2560.1440" timestamp="1649085505034" />
+    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649076404369">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1648802993656" />
-    <state x="1586" y="529" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648920820824">
+    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1649076404369" />
+    <state x="1586" y="529" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1649148407950">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1586" y="529" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1648920820824" />
-    <state x="789" y="359" key="SettingsEditor" timestamp="1648802906525">
+    <state x="1586" y="529" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1649148407950" />
+    <state width="2518" height="520" key="GridCell.Tab.0.bottom" timestamp="1649267838928">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="789" y="359" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1648802906525" />
+    <state width="2518" height="520" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1649267838928" />
+    <state width="1587" height="520" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1649099463349" />
+    <state width="2518" height="520" key="GridCell.Tab.0.center" timestamp="1649267838927">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="520" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1649267838927" />
+    <state width="1587" height="520" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1649099463347" />
+    <state width="2518" height="520" key="GridCell.Tab.0.left" timestamp="1649267838926">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="520" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1649267838926" />
+    <state width="1587" height="520" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1649099463347" />
+    <state width="2518" height="520" key="GridCell.Tab.0.right" timestamp="1649267838927">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="520" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1649267838927" />
+    <state width="1587" height="520" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1649099463348" />
+    <state width="2518" height="520" key="GridCell.Tab.1.bottom" timestamp="1649267838929">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="520" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1649267838929" />
+    <state width="1587" height="520" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1649099463350" />
+    <state width="2518" height="520" key="GridCell.Tab.1.center" timestamp="1649267838928">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="520" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1649267838928" />
+    <state width="1587" height="520" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1649099463350" />
+    <state width="2518" height="520" key="GridCell.Tab.1.left" timestamp="1649267838928">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="520" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1649267838928" />
+    <state width="1587" height="520" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1649099463349" />
+    <state width="2518" height="520" key="GridCell.Tab.1.right" timestamp="1649267838928">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="520" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1649267838928" />
+    <state width="1587" height="520" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1649099463350" />
+    <state x="990" y="343" key="SettingsEditor" timestamp="1649254425546">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="990" y="343" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1649254425546" />
     <state x="858" y="0" width="937" height="1055" key="dock-window-1" timestamp="1648718396293">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -91,5 +283,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="324" y="345" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1648736095883" />
+    <state x="945" y="334" width="670" height="847" key="search.everywhere.popup" timestamp="1649234853081">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="945" y="334" width="670" height="847" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1649234853081" />
+    <state x="945" y="333" width="670" height="786" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1649057090022" />
   </component>
 </project>

@@ -1,4 +1,9 @@
-#include "Zombie.hpp"
+#include "include/Zombie.hpp"
+
+Zombie::Zombie (void)
+{
+
+}
 
 void    Zombie::announce(void)
 {
@@ -7,13 +12,9 @@ void    Zombie::announce(void)
 
 Zombie::Zombie(std::string name) : _name(name)
 {
-	
-}
-
-Zombie::Zombie (void)
-{
 
 }
+
 
 Zombie::~Zombie (void)
 {

@@ -12,6 +12,7 @@ private:
 	void	info(void);
 	void	warning(void);
 	void	error(void);
+	int		getOption(std::string input);
 
 public:
 	enum s_option
@@ -22,7 +23,6 @@ public:
 		ERROR
 	};
 	void	complain(std::string level);
-	int		getOption(std::string input);
 	Harl(void);
 	~Harl();
 };

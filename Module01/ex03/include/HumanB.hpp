@@ -13,8 +13,8 @@ private:
     std::string _name;
 
 public:
-    void    attack();
     void    setWeapon(Weapon& club);
+    void    attack();
     HumanB(std::string type);
     HumanB(void);
 	~HumanB();

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee620091-0d69-441b-bbe1-c0cdb36d0dc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Module01/ex03/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module01/ex04/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/Fixed.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/Point.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/bsp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/Module02-ex01.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/Module01-ex04.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/include/Fixed.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/include/Point.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module02/ex03/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/cpp_piscine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/cpp_piscine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex00/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/ex00/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/PhoneBook.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/PhoneBook.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/include/Contact.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/include/Contact.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/include/PhoneBook.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/include/PhoneBook.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/Account.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/Account.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex00/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex00/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex00/Zombie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex00/Zombie.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex00/include/Zombie.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex00/include/Zombie.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex00/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex00/newZombie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex00/newZombie.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex00/randomChump.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex00/randomChump.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex01/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex01/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex01/Zombie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex01/Zombie.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex01/include/Zombie.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex01/include/Zombie.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex01/zombieHorde.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex01/zombieHorde.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex02/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex02/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/HumanA.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex03/HumanA.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/HumanA.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/HumanB.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex03/HumanB.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/HumanB.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex03/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/Weapon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex03/Weapon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/Weapon.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/include/HumanA.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex03/include/HumanA.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/include/HumanB.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex03/include/HumanB.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/include/Weapon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex03/include/Weapon.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex03/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex03/weapon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex04/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex04/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex05/Harl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex05/Harl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex05/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex05/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex06/Harl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex06/Harl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex06/include/Harl.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex06/include/Harl.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module01/ex06/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module01/ex06/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module02/ex00/Fixed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module02/ex00/Fixed.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module02/ex00/include/Fixed.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module02/ex00/include/Fixed.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module02/ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module02/ex00/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module02/ex01/Fixed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module02/ex01/Fixed.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module02/ex01/include/Fixed.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module02/ex01/include/Fixed.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module02/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module02/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module02/ex02/Fixed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module02/ex02/Fixed.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module02/ex02/include/Fixed.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module02/ex02/include/Fixed.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module02/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module02/ex02/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="27bXisAMb8qJe9VVuC4siWjfvlO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee620091-0d69-441b-bbe1-c0cdb36d0dc2" name="Default Changelist" comment="" />
+      <created>1649589889322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649589889322</updated>
+      <workItem from="1649589890405" duration="31000" />
+      <workItem from="1649675845536" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/abba/cpp_piscine/Module02/ex00/Fixed.cpp
+include/Fixed.hpp
+/Users/abba/cpp_piscine/Module02/ex00/include/Fixed.hpp
+
+/Users/abba/cpp_piscine/Module02/ex00/include/Fixed.hpp
+iostream
+-
+
+/Users/abba/cpp_piscine/Module02/ex00/main.cpp
+include/Fixed.hpp
+/Users/abba/cpp_piscine/Module02/ex00/include/Fixed.hpp
+

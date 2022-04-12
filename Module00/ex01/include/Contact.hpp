@@ -13,7 +13,6 @@ private:
 public:
     std::string get_option(std::string str) const;
     Contact(void);
-    void    add_contact();
     ~Contact();
 };
 

@@ -14,9 +14,9 @@ private:
 
 public:
     void announce( void );
-    Zombie(std::string name);
-    Zombie(void);
-    void setName(std::string name);
+	void setName(std::string name);
+	Zombie(std::string name);
+	Zombie(void);
     ~Zombie(void);
 };
 

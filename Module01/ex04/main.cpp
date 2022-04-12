@@ -1,16 +1,18 @@
 #include <iostream>
 #include <fstream>
 
-std::string	ft_replace(std::string line, std::string const search, std::string const replace)
+std::string	ft_replace(std::string line, std::string const search,
+						  std::string const replace)
 {
 	size_t	pos;
 
 	pos = 0;
-	while ((pos = line.find(search, pos) != std::string::npos))
+	int start = 0;
+	while ((pos = line.find(search, start)) != std::string::npos)
 	{
-		line.erase(pos - 1, search.length());
-		line.insert(pos - 1, replace);
-		pos += replace.length();
+		line.erase(pos, search.length());
+		line.insert(pos, replace);
+		start = pos + replace.length();
 	}
 	return line;
 }

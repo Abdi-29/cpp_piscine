@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/abba/cpp_piscine/Module01/ex03/HumanA.cpp
+include/Weapon.hpp
+/Users/abba/cpp_piscine/Module01/ex03/include/Weapon.hpp
+
+/Users/abba/cpp_piscine/Module01/ex03/HumanB.cpp
+include/Weapon.hpp
+/Users/abba/cpp_piscine/Module01/ex03/include/Weapon.hpp
+
+/Users/abba/cpp_piscine/Module01/ex03/Weapon.cpp
+include/Weapon.hpp
+/Users/abba/cpp_piscine/Module01/ex03/include/Weapon.hpp
+
+/Users/abba/cpp_piscine/Module01/ex03/include/HumanA.hpp
+Weapon.hpp
+/Users/abba/cpp_piscine/Module01/ex03/include/Weapon.hpp
+iostream
+-
+
+/Users/abba/cpp_piscine/Module01/ex03/include/HumanB.hpp
+Weapon.hpp
+/Users/abba/cpp_piscine/Module01/ex03/include/Weapon.hpp
+iostream
+-
+
+/Users/abba/cpp_piscine/Module01/ex03/include/Weapon.hpp
+HumanA.hpp
+/Users/abba/cpp_piscine/Module01/ex03/include/HumanA.hpp
+HumanB.hpp
+/Users/abba/cpp_piscine/Module01/ex03/include/HumanB.hpp
+iostream
+-
+
+/Users/abba/cpp_piscine/Module01/ex03/main.cpp
+include/Weapon.hpp
+/Users/abba/cpp_piscine/Module01/ex03/include/Weapon.hpp
+
