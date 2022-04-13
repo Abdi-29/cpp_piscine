@@ -4,7 +4,7 @@ SOURCE = src
 INCLUDE = -I ./include
 
 SRC =   main.cpp \
-        $(SOURCE)/Bureaucraft.cpp
+        $(SOURCE)/Bureaucrat.cpp
 
 OBJ = $(SRC:%.cpp=%.o)
 

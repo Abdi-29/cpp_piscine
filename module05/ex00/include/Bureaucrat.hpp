@@ -27,12 +27,12 @@ public:
 	class GradeTooHighException : public std::exception
 	{
 	public:
-		virtual const char* what(char *message) const throw();
+		virtual const char* what() const throw();
 	};
 	class GradeTooLowException : public std::exception
 	{
 	public:
-		virtual const char* what(char *message) const throw();
+		virtual const char* what() const throw();
 	};
 
 	//Orthodox canonical form
@@ -45,6 +45,8 @@ public:
 	//normal function
 	std::string getName(void) const;
 	int 		getGrade(void) const;
+	void 		increment(const int grade);
+	void 		decrement(const int grade);
 };
 
 std::ostream& operator<< (std::ostream & output, const Bureaucrat &bureau);
